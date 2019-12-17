@@ -1,0 +1,1 @@
+char respostaSN(char *perg);
