@@ -12,7 +12,7 @@
 #define NOME_OPCOES 100
 #define IMG_OP 16
 
-//Protótipo
+//ProtÃ³tipo
 int menu(int qtOp,char opcoes[][NOME_OPCOES],char *apresentaMenu);
 
 
@@ -33,25 +33,25 @@ int main(){
 	opMenu = menu(3,menuTeste,"Menu Principal");	
 	printf("%d",opMenu);	
 
-	//finalização
+	//finalizaï¿½ï¿½o
 	printf("\n");
 	system("pause");
 	return 0;
 }
-//Funções
+//Funï¿½ï¿½es
 
 
 
-//Imprime e informa opção escolhida de um menu de opções
-//Recebe a quantidade de opções, o endereçamento de uma matriz com as opções armazenadas e endereçamento da string com o título do menu;
-//Retorna a opção escolhida, 0 em caso de finalização do programa pelo ESC;
+//Imprime e informa opï¿½ï¿½o escolhida de um menu de opï¿½ï¿½es
+//Recebe a quantidade de opï¿½ï¿½es, o endereï¿½amento de uma matriz com as opï¿½ï¿½es armazenadas e endereï¿½amento da string com o tï¿½tulo do menu;
+//Retorna a opï¿½ï¿½o escolhida, 0 em caso de finalizaï¿½ï¿½o do programa pelo ESC;
 int menu(int qtOp,char opcoes[][NOME_OPCOES],char *apresentaMenu){
 	//variaveis
-	int tecla = -1,opAtual = 1,cont;	// a tecla vai receber a numeração do botão clicado de acordo com a  tabela ASCII
+	int tecla = -1,opAtual = 1,cont;	// a tecla vai receber a numeraï¿½ï¿½o do botï¿½o clicado de acordo com a  tabela ASCII
 	
 	//desenvolvimento
 	do{
-		//Impressão inicial do menu
+		//Impressï¿½o inicial do menu
 		if(tecla == -1){
 			printf("\t\t\t%s\n",apresentaMenu);
 			
@@ -71,7 +71,7 @@ int menu(int qtOp,char opcoes[][NOME_OPCOES],char *apresentaMenu){
 		
 		//imprimindo menu
 		if(tecla == ACIMA){
-			//Informar posição atual do cursor
+			//Informar posiï¿½ï¿½o atual do cursor
 			if(opAtual > 1){
 				opAtual--;
 			}
@@ -89,7 +89,7 @@ int menu(int qtOp,char opcoes[][NOME_OPCOES],char *apresentaMenu){
 			
 		}else if(tecla == ABAIXO){
 			
-			//informar posição atual do cursor
+			//informar posiï¿½ï¿½o atual do cursor
 			if(opAtual < qtOp){
 				opAtual++;
 			}
