@@ -60,7 +60,7 @@ typedef struct
 
 Usando essa estrutura para o cadastro de venda, fazendo as manipulações necessárias para a exclusão de uma venda (Identificação Do Cliente, Identificação Do Medicamento, Quantidade Vendida, Valor Unitário de Compra, Valor Unitário de Venda e o dia, mês, ano sendo a data da realização da venda).
 
-![](../diagrama.png)
+![](./diagrama.png)
 
 ## Telas
 
