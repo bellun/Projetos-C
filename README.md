@@ -1,9 +1,6 @@
 # Nome do produto
 > Descrição curta sobre o que seu projeto faz.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 Projeto final de Lab 2 implementado em C ANSI II
 
 Projeto Final: CONTROLE DE UMA REDE DE FARMÁCIAS
