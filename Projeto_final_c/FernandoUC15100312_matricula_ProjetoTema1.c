@@ -8,7 +8,7 @@ Saida   : Relatorios de vendas, telas de apresentação, busca ou alteração dos da
 */
 
 #include <stdio.h>
-#include <conio.c>
+#include <conio.h>
 #include <locale.h>
 #include "Funcoes_Basicas.h"
 #include "headers.h"

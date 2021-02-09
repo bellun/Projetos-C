@@ -17,7 +17,8 @@ Esse programa é usado para fazer um controle em uma rede de farmácia. O progra
 ## Instalação
 Instalar a IDE http://www.bloodshed.net ou a que mais gostar de utilizar.
 http://www.bloodshed.net/Dev-Cpp-4.0
-
+ E para executar basta abrir o arquivo
+ FernandoUC15100312_matricula_ProjetoTema1.c e depois compila-lo
 
 
 ## Exemplo de uso
